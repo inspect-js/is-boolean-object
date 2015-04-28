@@ -39,7 +39,9 @@
 		"jscs": "^1.12.0",
 		"editorconfig-tools": "^0.1.1",
 		"nsp": "^1.0.1",
-		"eslint": "^0.20.0"
+		"eslint": "^0.20.0",
+		"semver": "^4.3.3",
+		"replace": "^0.3.0"
 	},
 	"testling": {
 		"files": "test.js",
