@@ -16,6 +16,6 @@ var hasToStringTag = typeof Symbol === 'function' && typeof Symbol.toStringTag =
 
 module.exports = function isBoolean(value) {
 	if (typeof value === 'boolean') { return true; }
-	if (typeof value !== 'object') { return false; }
+	if (value === null || typeof value !== 'object') { return false; }
 	return hasToStringTag ? tryBooleanObject(value) : toStr.call(value) === boolClass;
 };
