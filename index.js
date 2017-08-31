@@ -2,7 +2,7 @@
 
 var boolToStr = Boolean.prototype.toString;
 
-var tryBooleanObject = function tryBooleanObject(value) {
+var tryBooleanObject = function booleanBrandCheck(value) {
 	try {
 		boolToStr.call(value);
 		return true;
@@ -15,7 +15,11 @@ var boolClass = '[object Boolean]';
 var hasToStringTag = typeof Symbol === 'function' && typeof Symbol.toStringTag === 'symbol';
 
 module.exports = function isBoolean(value) {
-	if (typeof value === 'boolean') { return true; }
-	if (value === null || typeof value !== 'object') { return false; }
+	if (typeof value === 'boolean') {
+		return true;
+	}
+	if (value === null || typeof value !== 'object') {
+		return false;
+	}
 	return hasToStringTag ? tryBooleanObject(value) : toStr.call(value) === boolClass;
 };
