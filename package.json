@@ -36,15 +36,15 @@
 		"@ljharb/eslint-config": "^12.2.1",
 		"covert": "^1.1.0",
 		"editorconfig-tools": "^0.1.1",
-		"eslint": "^4.5.0",
+		"eslint": "^4.19.1",
 		"foreach": "^2.0.5",
 		"indexof": "^0.0.1",
 		"is": "^3.2.1",
 		"jscs": "^3.0.7",
-		"nsp": "^2.7.0",
+		"nsp": "^3.2.1",
 		"replace": "^0.3.0",
-		"semver": "^5.4.1",
-		"tape": "^4.8.0"
+		"semver": "^5.5.0",
+		"tape": "^4.9.0"
 	},
 	"testling": {
 		"files": "test.js",
