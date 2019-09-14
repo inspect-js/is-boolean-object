@@ -12,7 +12,7 @@
 		"posttest": "npm run audit",
 		"coverage": "covert test.js",
 		"lint": "eslint test.js *.js",
-		"eccheck": "editorconfig-tools check *.js **/*.js > /dev/null",
+		"eccheck": "eclint check *.js **/*.js > /dev/null",
 		"preaudit": "npm install --package-lock --package-lock-only",
 		"audit": "npm audit",
 		"postaudit": "rm package-lock.json"
@@ -35,7 +35,7 @@
 	"devDependencies": {
 		"@ljharb/eslint-config": "^13.1.1",
 		"covert": "^1.1.1",
-		"editorconfig-tools": "^0.1.1",
+		"eclint": "^2.8.1",
 		"eslint": "^5.13.0",
 		"foreach": "^2.0.5",
 		"indexof": "^0.0.1",
