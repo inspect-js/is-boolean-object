@@ -1,7 +1,7 @@
 'use strict';
 
 var test = require('tape');
-var isBoolean = require('./');
+var isBoolean = require('../');
 var hasSymbols = typeof Symbol === 'function' && typeof Symbol('') === 'symbol';
 
 test('not Booleans', function (t) {
