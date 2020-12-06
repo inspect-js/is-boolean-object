@@ -17,7 +17,7 @@
 		"posttest": "aud --production",
 		"prelint": "npm run eccheck",
 		"lint": "eslint --ext=js,mjs .",
-		"eccheck": "eclint check *.js **/*.js > /dev/null",
+		"eccheck": "eclint check $(git ls-files)",
 		"version": "auto-changelog && git add CHANGELOG.md",
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
