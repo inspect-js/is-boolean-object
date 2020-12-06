@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.0](https://github.com/inspect-js/is-boolean-object/compare/v1.0.1...v1.1.0) - 2020-12-05
+
+### Commits
+
+- [Tests] migrate tests to Github Actions [`6cdb652`](https://github.com/inspect-js/is-boolean-object/commit/6cdb652add3c6e44c2f7fe07c5ca4c0d14ddc2c1)
+- [Tests] run `nyc` on all tests [`9a33076`](https://github.com/inspect-js/is-boolean-object/commit/9a33076d14869bf5120a6ca3903bcb9a008cf2e5)
+- [Tests] add .editorconfig [`bb401c0`](https://github.com/inspect-js/is-boolean-object/commit/bb401c084416b010d64e0c5a74465b37addab31f)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `tape` [`5cb2405`](https://github.com/inspect-js/is-boolean-object/commit/5cb24052ca84d840e929f05cd1fe6c03b85ec032)
+- [Robustness] use `call-bind` to avoid a dependency on `.call` [`76d87ae`](https://github.com/inspect-js/is-boolean-object/commit/76d87ae74235a9995d39bcf5783c04c744c34520)
+- [actions] add "Allow Edits" workflow [`337206a`](https://github.com/inspect-js/is-boolean-object/commit/337206af74bd7c340bc938ab6dc0535c08490b3d)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `tape` [`11f0481`](https://github.com/inspect-js/is-boolean-object/commit/11f0481efca28a241a35d384e2a302b1bcdc9a37)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `tape` [`b9602c8`](https://github.com/inspect-js/is-boolean-object/commit/b9602c8ca11be138722187c1fb0a5b25a57a4edc)
+- [Dev Deps] update `auto-changelog`, `tape`; add `aud` [`999e9e2`](https://github.com/inspect-js/is-boolean-object/commit/999e9e224d4eec8b20fc9c3431e9ba42caad79c9)
+- [actions] switch Automatic Rebase workflow to `pull_request_target` event [`bbb6728`](https://github.com/inspect-js/is-boolean-object/commit/bbb6728b9410f9d3e2d266523a477127e5e4c16f)
+
 ## [v1.0.1](https://github.com/inspect-js/is-boolean-object/compare/v1.0.0...v1.0.1) - 2019-12-18
 
 ### Commits
