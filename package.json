@@ -36,7 +36,7 @@
 		"is-boolean"
 	],
 	"dependencies": {
-		"call-bind": "^1.0.0"
+		"call-bind": "^1.0.2"
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^17.5.0",
