@@ -23,7 +23,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/ljharb/is-boolean-object.git"
+		"url": "git://github.com/inspect-js/is-boolean-object.git"
 	},
 	"keywords": [
 		"Boolean",

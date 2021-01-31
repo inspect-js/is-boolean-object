@@ -1,6 +1,5 @@
 # is-boolean-object <sup>[![Version Badge][2]][1]</sup>
 
-[![Build Status][3]][4]
 [![dependency status][5]][6]
 [![dev dependency status][7]][8]
 [![License][license-image]][license-url]
@@ -42,17 +41,15 @@ assert.ok(isBoolean(Object(true)));
 Simply clone the repo, `npm install`, and run `npm test`
 
 [1]: https://npmjs.org/package/is-boolean-object
-[2]: http://versionbadg.es/ljharb/is-boolean-object.svg
-[3]: https://travis-ci.org/ljharb/is-boolean-object.svg
-[4]: https://travis-ci.org/ljharb/is-boolean-object
-[5]: https://david-dm.org/ljharb/is-boolean-object.svg
-[6]: https://david-dm.org/ljharb/is-boolean-object
-[7]: https://david-dm.org/ljharb/is-boolean-object/dev-status.svg
-[8]: https://david-dm.org/ljharb/is-boolean-object#info=devDependencies
-[9]: https://ci.testling.com/ljharb/is-boolean-object.png
-[10]: https://ci.testling.com/ljharb/is-boolean-object
+[2]: https://versionbadg.es/inspect-js/is-boolean-object.svg
+[5]: https://david-dm.org/inspect-js/is-boolean-object.svg
+[6]: https://david-dm.org/inspect-js/is-boolean-object
+[7]: https://david-dm.org/inspect-js/is-boolean-object/dev-status.svg
+[8]: https://david-dm.org/inspect-js/is-boolean-object#info=devDependencies
+[9]: https://ci.testling.com/inspect-js/is-boolean-object.png
+[10]: https://ci.testling.com/inspect-js/is-boolean-object
 [11]: https://nodei.co/npm/is-boolean-object.png?downloads=true&stars=true
-[license-image]: http://img.shields.io/npm/l/is-boolean-object.svg
+[license-image]: https://img.shields.io/npm/l/is-boolean-object.svg
 [license-url]: LICENSE
-[downloads-image]: http://img.shields.io/npm/dm/is-boolean-object.svg
-[downloads-url]: http://npm-stat.com/charts.html?package=is-boolean-object
+[downloads-image]: https://img.shields.io/npm/dm/is-boolean-object.svg
+[downloads-url]: https://npm-stat.com/charts.html?package=is-boolean-object
