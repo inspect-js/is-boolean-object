@@ -7,8 +7,6 @@
 
 [![npm badge][11]][1]
 
-[![browser support][9]][10]
-
 Is this value a JS Boolean? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
 
 ## Example
@@ -46,8 +44,6 @@ Simply clone the repo, `npm install`, and run `npm test`
 [6]: https://david-dm.org/inspect-js/is-boolean-object
 [7]: https://david-dm.org/inspect-js/is-boolean-object/dev-status.svg
 [8]: https://david-dm.org/inspect-js/is-boolean-object#info=devDependencies
-[9]: https://ci.testling.com/inspect-js/is-boolean-object.png
-[10]: https://ci.testling.com/inspect-js/is-boolean-object
 [11]: https://nodei.co/npm/is-boolean-object.png?downloads=true&stars=true
 [license-image]: https://img.shields.io/npm/l/is-boolean-object.svg
 [license-url]: LICENSE
