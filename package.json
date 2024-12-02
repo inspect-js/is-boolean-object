@@ -17,7 +17,7 @@
 		"tests-only": "nyc tape 'test/**/*.js'",
 		"test:harmony": "node --harmony --es-staging test",
 		"test:corejs": "nyc tape test-corejs.js",
-		"posttest": "aud --production",
+		"posttest": "npx npm@'>=10.2' audit --production",
 		"prelint": "eclint check $(git ls-files | xargs find 2> /dev/null | grep -vE 'node_modules|\\.git')",
 		"lint": "eslint --ext=js,mjs .",
 		"version": "auto-changelog && git add CHANGELOG.md",
@@ -43,7 +43,6 @@
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^21.0.0",
-		"aud": "^2.0.1",
 		"auto-changelog": "^2.4.0",
 		"core-js": "^3.26.0",
 		"eclint": "^2.8.1",
