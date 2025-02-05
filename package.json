@@ -39,7 +39,7 @@
 		"is-boolean"
 	],
 	"dependencies": {
-		"call-bound": "^1.0.2",
+		"call-bound": "^1.0.3",
 		"has-tostringtag": "^1.0.2"
 	},
 	"devDependencies": {
